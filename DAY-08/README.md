@@ -25,7 +25,9 @@ Includes troubleshooting for common YAML mistakes, such as label mismatches and 
  ###  1. Create a ReplicaSet with Nginx Pods
  ``` kubectl apply -f replicaset-nginx.yaml ```  
  To update the number of replicas:
+ 
  - Modify the YAML file to increase replicas to 4 and apply the change.
+   
  To scale replicas using the command line:
  ``` kubectl scale replicaset nginx-replicaset --replicas=6 ```
  
